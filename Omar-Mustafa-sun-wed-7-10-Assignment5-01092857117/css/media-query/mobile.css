@@ -1,0 +1,148 @@
+/* 2xl screen */
+@media screen and (max-width:1536px) {}
+
+
+/* xl screen */
+@media screen and (max-width:1280px) {
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "navbar navbar"
+            "income-container income-container"
+            "activities analysis"
+            "table-box table-box"
+            "bills summary"
+            "budget payment";
+    }
+
+    .parent {
+        grid-template-columns: 65px 1fr;
+    }
+
+    .sidebar {
+        width: 65px;
+    }
+
+    .links-logos {
+        justify-content: center;
+    }
+
+    .side-btn {
+        gap: 28px;
+    }
+
+    .side-btn button {
+        padding: 0;
+    }
+
+    .sidebar-box {
+        padding: 12px;
+        width: 100%;
+    }
+
+    .muddaber-sidebar h2,
+    .muddaber-sidebar h4 {
+        display: none;
+    }
+
+    .main-coin .coins-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-coin .coins-logo img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .links-logos span {
+        display: none;
+    }
+
+    .part-3 h3,
+    .part-3 h5 {
+        display: none;
+    }
+
+    .used-box {
+        margin-block-end: 0;
+    }
+
+    .budget-box {
+        margin-block: 8px 24px;
+    }
+}
+
+
+/* lg screen */
+@media screen and (max-width:1024px) {
+
+    .income-box>h3 {
+        font-size: 24px;
+    }
+
+    .summary-box {
+        flex-direction: column;
+    }
+
+    .summary-acc {
+        align-self: flex-start;
+    }
+
+    .summary-box>span {
+        align-self: flex-end;
+    }
+
+    .total-mini-box {
+        flex-direction: column;
+    }
+
+    .total-mini-box>div:last-child {
+        align-self: flex-end;
+    }
+
+    .stages {
+        flex-direction: column;
+    }
+
+    .remain-box {
+        align-self: flex-end;
+    }
+}
+
+
+/* md screen */
+@media screen and (max-width:768px) {
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-areas: "main-content";
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "navbar"
+            "income-container"
+            "activities"
+            "table-box"
+            "bills"
+            "budget"
+            "analysis"
+            "summary"
+            "payment";
+    }
+
+    .income-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "income-box";
+    }
+
+}
+
+/* sm screen */
+@media screen and (max-width:640px) {}
