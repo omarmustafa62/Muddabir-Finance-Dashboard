@@ -1,24 +1,28 @@
-# Muddabir Finance Dashboard
+# Muddabir — Personal Finance Dashboard
 
-A personal finance dashboard interface designed to help users view their money at a glance. The Arabic UI presents account balances, budgets, savings, recent transactions, and quick financial actions.
+An Arabic, right-to-left personal finance dashboard concept. The interface brings key financial information together in one place, including account balances, recent transactions, spending categories, budgets, and payment methods.
 
-## Features
-- Finance dashboard layout with account and balance summaries
-- Recent transactions and spending categories
-- Quick-action controls and navigation
-- Responsive styling for different screen sizes
+## Highlights
+- Arabic RTL dashboard layout
+- Account balance and financial summary cards
+- Recent activity and transaction list
+- Budget overview and spending summaries
+- Responsive layout for desktop and smaller screens
 
 ## Built With
 - HTML5
 - CSS3
-- Responsive CSS media queries
+- CSS media queries
+- Font Awesome assets
 
 ## Run Locally
-1. Clone this repository.
-2. Open `Muddabir-Finance-Dashboard/index.html` in your browser.
+Clone the repository, then open `Muddabir-Finance-Dashboard/index.html` in a browser.
 
 ## Project Structure
-The website source is inside the `Muddabir-Finance-Dashboard/` directory. Stylesheets and image assets are stored in their respective subdirectories.
+- `Muddabir-Finance-Dashboard/index.html` — page markup
+- `Muddabir-Finance-Dashboard/css/` — stylesheets and responsive rules
+- `Muddabir-Finance-Dashboard/images/` — image and icon assets
 
----
+> This repository currently contains a frontend interface; it does not include a connected banking service or backend.
+
 Created by **Omar Mustafa**.
